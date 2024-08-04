@@ -30,7 +30,6 @@ public interface IDynamicThreadPoolService {
     /**
      *  更新指定线程池配置
      * @param threadPoolConfigEntity 线程池参数配置
-     * @return void
      * @author cnzhangxy
      * @since 2024/5/30
      */
