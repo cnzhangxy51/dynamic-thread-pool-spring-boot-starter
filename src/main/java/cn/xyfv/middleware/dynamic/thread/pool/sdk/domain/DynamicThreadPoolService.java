@@ -12,9 +12,9 @@ import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @description: 动态线程池服务
- * @author: cnzhangxy
- * @create: 2024-05-30 20:18
+ * 动态线程池服务
+ * @author cnzhangxy
+ * @since 2024-05-30 20:18
  **/
 public class DynamicThreadPoolService implements IDynamicThreadPoolService {
 

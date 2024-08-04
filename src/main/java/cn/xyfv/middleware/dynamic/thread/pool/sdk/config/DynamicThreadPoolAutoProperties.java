@@ -5,9 +5,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * 动态线程池上报中心配置(redis)
  * @author cnzhangxy
- * @description 动态线程池上报中心配置(redis)
- * @create 2024-05-12 16:23
+ * @since 2024-05-12 16:23
  */
 
 @ConfigurationProperties(prefix = "dynamic.thread.pool.config", ignoreInvalidFields = true)

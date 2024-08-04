@@ -27,9 +27,9 @@ import java.util.Map;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @description: 动态配置入口
- * @author: cnzhangxy
- * @create: 2024-05-30 20:23
+ *  动态配置入口
+ * @author cnzhangxy
+ * @since 2024-05-30 20:23
  **/
 
 @Configuration

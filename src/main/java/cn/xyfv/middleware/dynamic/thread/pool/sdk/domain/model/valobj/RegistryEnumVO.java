@@ -1,9 +1,9 @@
 package cn.xyfv.middleware.dynamic.thread.pool.sdk.domain.model.valobj;
 
 /**
+ * 注册中心枚举值对象 key
  * @author cnzhangxy
- * @description 注册中心枚举值对象 key
- * @create 2024-05-12 16:26
+ * @since 2024-05-12 16:26
  */
 public enum RegistryEnumVO {
 

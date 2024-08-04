@@ -1,9 +1,9 @@
 package cn.xyfv.middleware.dynamic.thread.pool.sdk.domain.model.entity;
 
 /**
- * @description: 线程池配置实体
- * @author: cnzhangxy
- * @create: 2024-05-30 20:16
+ * 线程池配置实体
+ * @author cnzhangxy
+ * @since 2024-05-30 20:16
  **/
 
 public class ThreadPoolConfigEntity {

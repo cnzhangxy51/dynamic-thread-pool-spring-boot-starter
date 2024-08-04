@@ -4,27 +4,25 @@ import cn.xyfv.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPool
 import java.util.List;
 
 /**
+ * 注册中心接口
  * @author cnzhangxy
- * @description 注册中心接口
- * @create 2024-05-12 16:21
+ * @since 2024-05-12 16:21
  */
 public interface IRegistry {
 
     /**
-     * @Description: 上报所有线程池参数配置
-     * @Param: [threadPoolEntities]
-     * @return: void
-     * @Author: cnzhangxy
-     * @Date: 2024/7/31
+     * 上报所有线程池参数配置
+     * @param threadPoolEntities 线程池参数配置列表
+     * @author cnzhangxy
+     * @since 2024/7/31
      */
     void reportThreadPool(List<ThreadPoolConfigEntity> threadPoolEntities);
 
     /**
-    * @Description: 上报指定线程池参数配置
-    * @Param: [threadPoolConfigEntity]
-    * @return: void
-    * @Author: cnzhangxy
-    * @Date: 2024/7/31
+    * 上报指定线程池参数配置
+    * @param threadPoolConfigEntity 线程池参数配置
+    * @author cnzhangxy
+    * @since 2024/7/31
     */
     void reportThreadPoolConfigParameter(ThreadPoolConfigEntity threadPoolConfigEntity);
 
